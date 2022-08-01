@@ -19,6 +19,10 @@ Please make sure you have installed and configured the Tower CLI properly. You c
 ![`rich-codex --help`](./assets/img/rich-codex-help.svg)
 
 
+
+![`tw info`](./assets/img/tw-info.svg)
+
+
 ```console
 $ tw info
 
