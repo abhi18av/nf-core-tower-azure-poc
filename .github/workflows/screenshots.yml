@@ -18,6 +18,8 @@ jobs:
 
       - name: Generate terminal images with rich-codex
         uses: ewels/rich-codex@v1
+        env:
+          TOWER_ACCESS_TOKEN: ${{ secrets.TOWER_ACCESS_TOKEN }}
         with:
           commit_changes: "true"
           clean_img_paths: assets/img/*.svg
