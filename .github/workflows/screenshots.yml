@@ -13,10 +13,9 @@ jobs:
           curl -L https://github.com/seqeralabs/tower-cli/releases/download/v${TOWER_CLI_VERSION}/tw-${TOWER_CLI_VERSION}-linux-x86_64 > tw
           chmod +x ./tw
           mv tw /usr/local/bin/
-          tw info
 
       - name: Generate terminal images with rich-codex
         uses: ewels/rich-codex@v1
         with:
           commit_changes: "true"
-          clean_img_paths: docs/img/*.svg
+          clean_img_paths: assets/img/*.svg
