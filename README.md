@@ -16,6 +16,9 @@ Most Tower entities such as Pipelines, Compute Environments etc can be exported 
 
 Please make sure you have installed and configured the Tower CLI properly. You can check this via the `tw info` command:
 
+![`rich-codex --help`](./assets/img/rich-codex-help.svg)
+
+
 ```console
 $ tw info
 
