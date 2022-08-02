@@ -4,9 +4,7 @@ jobs:
   rich_codex:
     runs-on: ubuntu-latest
     steps:
-      - name: bash-version
-        run: export TOWER_ACCESS_TOKEN=${{ secrets.TOWER_ACCESS_TOKEN }}   
-    
+
       - name: Check out the repo
         uses: actions/checkout@v3
         
